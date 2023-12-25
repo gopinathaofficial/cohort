@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="">
+            <img width="200" src="./logo.svg" alt="" srcset="">
+        </a>
+        <div class="navbuttons">
+            <ul>Sign Up</ul>
+            <ul>About</ul>
+            <ul>Products</ul>
+            <ul>Pricing</ul>
+            <ul>Support</ul>
+        </div>
+    </nav>
+    <div>
+        <center style="margin-top: 50px;">
+            <img width="700" src="photo.png" alt="">
+        </center>
+        <center>
+            <h1 style="">Invest in Everything</h1>
+        </center>
+        <center>
+            <h5 style="margin-top: 10px;">
+                Online platform to invest in stocks, derivatives, mutual funds, and more
+            </h5>
+        </center>
+        <center>
+            <button class="button">
+                Sign up now
+            </button>
+        </center>
+    </div>
+
+    <div class="main-container">
+        <h1>Interest calculator</h1>
+        <center>
+            <input type="text" id="capital" placeholder="Enter capital amount">
+            <input type="text" id="interest" placeholder="Enter interest rate">
+            <input type="text" id="duration" placeholder="Enter duration in years">
+        </center>
+        <button class="calbutton" onclick="calculate()">Calculate</button>
+        <div class="resultdiv">
+            <h2 id="result">Total return:</h2>
+        </div>
+    </div>
+</body>
+</html>
